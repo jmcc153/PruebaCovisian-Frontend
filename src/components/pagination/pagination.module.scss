@@ -1,0 +1,37 @@
+@import 'styles/colors.scss';
+
+
+.pages{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-sizing: border-box;
+  background-color: inherit;
+  padding: 5px 0;
+  .numbers{
+    display: flex;
+    gap: 10px;
+    button{
+      min-width: 30px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+  }
+  .active{
+    padding: 10px;
+    background-color: $primaryColor;
+  }
+  .nextPrev{
+    background-color: none;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+}

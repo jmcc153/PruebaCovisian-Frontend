@@ -1,0 +1,57 @@
+@import '../../styles/colors.scss';
+
+table{
+  border-collapse: collapse;
+  transition: all 0.3s;
+  thead{
+    tr{
+      border-bottom: 1px solid #ccc;
+      th{
+        padding: 10px;
+        svg{
+          font-size: 1.5rem;
+          cursor: pointer;
+          text-align: center;
+          transition: all 0.3s;
+          padding: 5px;
+          border-radius: 10px;
+          &:hover{
+            background-color: $primaryColor;
+          }
+        }
+      }
+    }
+  }
+  tbody{
+    tr{
+      border-bottom: 1px solid #ccc;
+      td{
+        text-align: center;
+        padding: 10px;
+        &.paid{
+          background-color: #5cef5c;
+        }
+        &.pending{
+          background-color: #e2e717;
+        }
+        svg{
+          font-size: 1.5rem;
+          cursor: pointer;
+          text-align: center;
+          padding: 5px;
+          border-radius: 10px;
+          transition: all 0.3s;
+          &:hover{ 
+            background-color: $primaryColor;
+          }
+        }
+        button{
+          outline: none;
+          &:active, &:focus{
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+}
