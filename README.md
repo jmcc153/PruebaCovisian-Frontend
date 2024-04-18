@@ -1,5 +1,5 @@
 # Prueba Covisian
-Este es un proyecto creado con Vite.js.
+Este es un proyecto creado con Vite.js en el que se usa la libreria de React en javascript para la visualización de datos. Para esto se consume una API realizada en .Net Core que trae los registros requeridos.
 
 ## Estructura del Proyecto
 
