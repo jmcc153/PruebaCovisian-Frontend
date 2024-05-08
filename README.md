@@ -28,6 +28,3 @@ Para ejecutar el proyecto, sigue estos pasos:
 1. Instala las dependencias con `npm install`.
 2. Ejecuta el proyecto con `npm run dev`.
 
-## Cómo contribuir
-
-Si quieres contribuir a este proyecto, por favor crea un 'pull request' con tus cambios.
