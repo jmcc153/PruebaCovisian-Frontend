@@ -23,7 +23,7 @@ El proyecto tiene la siguiente estructura:
 
 ## Cómo ejecutar el proyecto
 
-Para ejecutar el proyecto, sigue estos pasos:
+Para ejecutar el proyecto en desarrollo, sigue estos pasos:
 
 1. Instala las dependencias con `npm install`.
 2. Ejecuta el proyecto con `npm run dev`.
